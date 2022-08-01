@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="cookie, game, clicker">
+    <meta name="description" content="A cookie clicker game">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <a href="/images"><button>Images</button></a>
+    <header>
+        <h1 id="headerCookies">0 Cookies</h1>
+        <img id ="imgCookie" src="img/cookie.png" alt="Galleta">
+    </header>
+    <hr>
+    <nav>
+        <div class="section">
+            <h2 id="totalProd">Total production: 0 Cookies/s</h2>
+            <div>
+                <h2 id="htmlClicker">Clickers: 0</h2>
+                <h2 id="htmlProdClicker">Producing: 0/s</h2>
+                <img id="imgClicker" class="productors" src="img/clicker.png" alt="Cliker">
+                <h2 id="htmlPriceClicker">Price:</h2>
+                <h2 id="htmlNameProdClicker" class="upButton">Produces:</h2><br>
+                <button id="buyClicker">Buy</button>
+            </div>
+            <div>
+                <h2 id="htmlBaker">Bakers: 0</h2>
+                <h2 id="htmlProdBaker">Producing: 0/s</h2>
+                <img id="imgBaker" class="productors" src="img/baker.png" alt="Baker">
+                <h2 id="htmlPriceBaker">Price:</h2>
+                <h2 id="htmlNameProdBaker" class="upButton">Produces:</h2><br>
+                <button id="buyBaker">Buy</button>
+            </div>
+            <div>
+                <h2 id="htmlFarm">Farms: 0</h2>
+                <h2 id="htmlProdFarm">Producing: 0/s</h2>
+                <img id="imgFarm" class="productors" src="img/farm.png" alt="Farm">
+                <h2 id="htmlPriceFarm">Price:</h2>
+                <h2 id="htmlNameProdFarm" class="upButton">Produces:</h2><br>
+                <button  id="buyFarm">Buy</button>
+            </div>
+            <div>
+                <h2 id="htmlMine">Mines: 0</h2>
+                <h2 id="htmlProdMine">Producing: 0/s</h2>
+                <img id="imgMine" class="productors" src="img/mine.png" alt="Mine">
+                <h2 id="htmlPriceMine">Price:</h2>
+                <h2 id="htmlNameProdMine" class="upButton">Produces:</h2><br>
+                <button id="buyMine">Buy</button>
+            </div>
+            <div>
+                <h2 id="htmlFactory">Factories: 0</h2>
+                <h2 id="htmlProdFactory">Producing: 0/s</h2>
+                <img id="imgFactory" class="productors" src="img/factory.png" alt="Factory">
+                <h2 id="htmlPriceFactory">Price:</h2>
+                <h2 id="htmlNameProdFactory" class="upButton">Produces:</h2><br>
+                <button id="buyFactory">Buy</button>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="section">
+        <h2>Productors lvl</h2>
+        <div>
+            <h2 id="lvlClicker">Clickers lvl: 1</h2>
+            <h2 id="activeLvlClicker" class="redtext"></h2>
+            <img class="productors" src="img/upclicker.png" alt="Cliker">
+            <h2 id="priceLvlClicker">Price:</h2>
+            <h2 id="lvlProdClicker" class="upButton">Production</h2><br>
+            <button id="lvlButtonClicker">Up lvl</button>
+        </div>
+        <div>
+            <h2 id="lvlBaker">Bakers lvl: 1</h2>
+            <h2 id="activeLvlBaker" class="redtext"></h2>
+            <img class="productors" src="img/upbaker.png" alt="Baker">
+            <h2 id="priceLvlBaker">Price:</h2>
+            <h2 id="lvlProdBaker" class="upButton">Production</h2><br>
+            <button id="lvlButtonBaker">Up lvl</button>
+        </div>
+        <div>
+            <h2 id="lvlFarm">Farms lvl: 1</h2>
+            <h2 id="activeLvlFarm" class="redtext"></h2>
+            <img class="productors" src="img/upfarm.png" alt="Farm">
+            <h2 id="priceLvlFarm">Price:</h2>
+            <h2 id="lvlProdFarm" class="upButton">Production</h2><br>
+            <button id="lvlButtonFarm">Up lvl</button>
+        </div>
+        <div>
+            <h2 id="lvlMine">Mines lvl: 1</h2>
+            <h2 id="activeLvlMine" class="redtext"></h2>
+            <img class="productors" src="img/upmine.png" alt="Mine">
+            <h2 id="priceLvlMine">Price:</h2>
+            <h2 id="lvlProdMine" class="upButton">Production</h2><br>
+            <button id="lvlButtonMine">Up lvl</button>
+        </div>
+        <div>
+            <h2 id="lvlFactory">Factories lvl: 1</h2>
+            <h2 id="activeLvlFactory" class="redtext"></h2>
+            <img class="productors" src="img/upfactory.png" alt="Factory">
+            <h2 id="priceLvlFactory">Price:</h2>
+            <h2 id="lvlProdFactory" class="upButton">Production</h2><br>
+            <button id="lvlButtonFactory">Up lvl</button>
+        </div>
+    </div>
+    <hr>
+    <div class="section">
+        <h2>Buy cookies | Production cookies</h2>
+        <div>
+            <h2>32000 Cookies</h2>
+            <img class="productors" src="img/cookies1.png" alt="Cliker">
+            <h2 class="redtext" class="upButton"></h2><br>
+            <button id="cookies32k">Free</button>
+        </div>
+        <div>
+            <h2>256000 Cookies</h2>
+            <img class="productors" src="img/cookies2.png" alt="Baker">
+            <h2 class="redtext" class="upButton"></h2><br>
+            <button id="cookies256k">Free</button>
+        </div>
+        <div>
+            <h2>2048000 Cookies</h2>
+            <img class="productors" src="img/cookies3.png" alt="Farm">
+            <h2 class="redtext" class="upButton"></h2><br>
+            <button id="cookies2m">Free</button>
+        </div>
+        <div>
+            <h2>¡All production x10!</h2>
+            <img class="productors" src="img/cookiex10.png" alt="Farm">
+            <h2 class="redtext" class="upButton"></h2><br>
+            <button id="prod10x">Free</button>
+        </div>
+    </div>
+    <hr>
+    <h2>Shopping history</h2>
+    <p id="p"></p>
+    <script type="text/javascript" src="main/main.js"></script>
+</body>
+</html>
